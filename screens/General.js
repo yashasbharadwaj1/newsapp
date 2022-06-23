@@ -81,7 +81,7 @@ const General = () => {
           </View>
         </SafeAreaView>
       )}
-      keyExtractor={(item) => item.id}
+      keyExtractor={(item) => item.title}
     />
   );
 };
